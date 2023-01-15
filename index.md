@@ -6,9 +6,9 @@
   ![Image](VSCode.png)
 * Select the version for your specific operating system and install it
 * After you installed VSCode, load it up and you should get something similar to this: <br>
-  ![Image](VSCodeMenu.png)
-***
-**Congratulations!! You successfully installed VSCode**
+  ![Image](VSCodeMenu.png) 
+**Congratulations!! You successfully installed VSCode** <br>
+****
 **2. Connecting to the Remote Server**
 * I use a Mac so I did not have to do this but if you use Windows, follow the steps below
   * Install Git by using this [Link](https://gitforwindows.org/) It should bring you to a screen like this: <br>
@@ -20,8 +20,8 @@
 * After you typed that command in, you will get a message asking authenticity of the host. Just type yes and press enter
 * It will then ask for your password. Input your password and you should get a message similar to this: <br>
   ![Image](LoginScreen.png)
-**You are now connected to the remote server! Now you can start typing commands**
-***
+**You are now connected to the remote server! Now you can start typing commands** <br>
+****
 **3. Trying Some Commands**
 * Now that you are on the remote server, you can start trying some commands. Here are some useful ones to get you started:
   * cd ~
@@ -36,7 +36,7 @@
 * After you are done trying some commands, you can exit the remote server by either using Control-D or enter exit in the terminal <br>
   You would get something like this after you exit the remote server <br>
   ![Image](Exit.png)
-***
+****
 ## Great Job! You now know how to long into your CS15l account and run commands on the remote server! You Did Fantastic!!
   ![Image](ThumbsUp.jpeg)
                                                                                    
