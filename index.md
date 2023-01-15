@@ -13,7 +13,7 @@
 * I use a Mac so I did not have to do this but if you use Windows, follow the steps below
   * Install Git by using this [Link](https://gitforwindows.org/) It should bring you to a screen like this: <br>
   ![Image](Git.png)
-  * After you installed Git, use this [Link](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to use Bask on Windows in VSCode
+  * After you installed Git, use this [Link](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to use Bash on Windows in VSCode
 * Open up a new terminal in VSCode by using pressing Ctrl or Command + and type in this command: <br>
   **ssh cs15lwi23aot@ieng6.ucsd.edu** <br>
   The account above is my specific account so make sure the letters after cs15lwi23 correspond to your own specific account
