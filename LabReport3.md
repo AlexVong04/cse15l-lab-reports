@@ -14,6 +14,15 @@ For example inputing the url http://localhost:4000/add-message?s=HelloWorld woul
     * String[] parameters - The query of the url split by = 
     * messages.size() - The amount of strings in messages
     * output - The output returned to the server
-* **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+* **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why** <br>
+  Almost all the relevant values get changed from this specific request:
+    * ArrayList messages - Changes from an empty list to having the string HelloWorld in it
+    * url.getPath() - Since this is the first string added, the path changes from just / to /add-message
+    * String[] parameters - parameters gets initalized to the new query so it becomes {s, HelloWorld}
+    * messages.size() - The size of the list gets increased from 0 to 1
+    * output - The output changes by going from nothing to HelloWorld
+
+Now we can add a second message to display. Inputing http://localhost:4000/add-message?s=Goodbye would print: <br>
+![Image]()
    
   
