@@ -85,6 +85,5 @@ The bug was that the array that was getting returned was getting set to the newA
 
 ## Part 3 - What Did I Learn?
 
-The most interesting thing that I learned was in the lab on week 2. 
-
+The most interesting thing that I learned was how to build and run a server. This was totally new to me since I all I knew about computer science was running programs in java. I never knew you could run a whole server from a program. It was interesting seeing how programs can use the url of a server to manipulate what is being returned to the server. Learning how to build and run a server also helped clarify my understanding of how paths and querys work. Running the server on a remote computer also taught me how to use git clone and other git commands to clone a repository to run the server on a remote computer.
  
