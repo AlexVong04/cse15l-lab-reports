@@ -54,5 +54,37 @@ assertArrayEquals(new int[]{4,3,2,1}, ArrayExamples.reversed(input2));
 int[] input1 = { };
 assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
 ```
+Symptom (Output of running the tests) <br>
+![Image](Junit.png)
 
-  
+Before Fix: <br>
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  } 
+```
+
+After Fix: <br>
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+Explaination: <br>
+The bug was that the array that was getting returned was getting set to the newArray that was just initialized. Since newArray is an int array, it would have default values of 0. This is why the tester was expecting 4 but got 0 since the array that was returned was all 0s. To fix this bug I switched arr and newArray in the line right after the for loop so the newArray is the one that is getting set to the reverse of arr. I then made sure to return newArray not arr since newArray is the one that was set to the reverse of arr.
+
+## Part 3 - What Did I Learn?
+
+The most interesting thing that I learned was in the lab on week 2. 
+
+ 
