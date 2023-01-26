@@ -42,4 +42,17 @@ Now we can add a second message to display. Inputing http://localhost:4000/add-m
     * **String[] paramters** - parameters gets initalized in every request so it becomes {s, Goodbye}
     * **messages.size()** - The size of the list gets increased from 1 to 2
     * **output** - The output changes by going from just HelloWorld to HelloWorld + \n + Goodbye which prints HelloWorld and then prints Goodbye on a new         line
+## Part 2 - Bugs
+   Bug in reversed method in ArrayExamples class <br>
+```
+# Failure-Inducing Input 
+int[] input2 = {1,2,3,4};
+assertArrayEquals(new int[]{4,3,2,1}, ArrayExamples.reversed(input2));
+```
+```
+# Non Failure-Inducing Input
+int[] input1 = { };
+assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+```
+
   
