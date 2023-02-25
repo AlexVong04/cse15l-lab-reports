@@ -14,7 +14,12 @@ Go this link (https://github.com/ucsd-cse15l-w23/lab7) and click the fork button
 **Explaination:** <br>
 This step is important for the setup of the tasks because it lets you be able to modify files of lab7 without changing the original.  
 ## Step 3 - Start the timer!
-![Image]()
+![Image](Timer.png)
+Go to Google and type stopwatch and press enter. <br>
+
+**Explaination:** <br>
+This is the last setup step for your timed skill demo before you start the actual tasks. This is allow you to measure how fast you finish all your
+tasks.
 ## Step 4 - Log into ieng6
 ## Step 5 - Clone your fork of the repository from your Github account
 ## Step 6 - Run the tests, demonstrating that they fail
